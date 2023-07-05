@@ -1,0 +1,33 @@
+.footer {
+  background-color: black;
+  margin-top: 20px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  font-family: "Comfortaa", cursive;
+  margin-top: 1vh;
+  width: 100vw;
+  &-copyright {
+    margin-left: 2%;
+  }
+  &-helps {
+    margin-right: 2%;
+    margin-top: 10px;
+  }
+  &-helps_icons {
+    margin: 10px;
+  }
+  &-icon {
+    transition: color 0.3s ease;
+    margin: 5px;
+    font-size: 25px;
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}
+.content {
+  min-height: 67vh;
+}

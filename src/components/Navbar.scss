@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Didact+Gothic&display=swap");
+
+.logo {
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  color: #9370db;
+  text-decoration: none;
+  & h2:hover {
+    color: rgba(40, 110, 110, 0.531);
+  }
+  & img {
+    width: 80px;
+    display: block;
+  }
+}
+.cart {
+  font-family: "Didact Gothic", sans-serif;
+  display: flex;
+  color: bisque;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 10px;
+  &:hover {
+    color: rgba(0, 255, 255, 0.531);
+  }
+}
+.navbar {
+  background: linear-gradient(to right, #e6e6e6, #72b4ff);
+}
+html,
+body {
+  background-color: bisque;
+  z-index: -10;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+}
